@@ -4,4 +4,4 @@
   :depends-on ("mcclim")
   :serial t
   :components
-  ())
+  ((:file "packages")))
