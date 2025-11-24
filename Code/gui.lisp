@@ -16,3 +16,6 @@
 (defun clidesdale ()
   (clim:run-frame-top-level
    (clim:make-application-frame 'clidesdale)))
+
+(define-clidesdale-command (com-quit :name t) ()
+  (clim:frame-exit clim:*application-frame*))
