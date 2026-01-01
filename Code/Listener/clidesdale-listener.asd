@@ -6,4 +6,6 @@
   :components
   ((:file "packages")
    (:file "client")
-   (:file "application-frame")))
+   (:file "application-frame")
+   (:file "eval")
+   (:file "read-frame-command")))
